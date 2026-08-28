@@ -95,47 +95,6 @@ Key findings (brief):
 - RF-DETR-nano achieved the highest overall accuracy (mAP50-95 = 0.526) but is architecturally incompatible with the SSL weight-surgery pipeline used in Part B.
 - Among SSL methods at 20% labels, SimCLR produced the strongest downstream detector (mAP50-95 = 0.0642), but no SSL method matched a COCO-pretrained baseline across the tested label fractions up to 50%.
 
-## Figures and captions (placeholders)
-
-Note: image files are not included in this README. Use the filenames below when adding images to the repository (suggested folder: docs/images/). Insert images using standard Markdown: `![Figure X](docs/images/figure_x.png)`.
-
-- Figure 1 — Dataset class distribution (instance counts per class). Placeholder: docs/images/fig_class_distribution.png  
-  Caption: "Figure 1. Instance counts per class in the KIIT-MiTA dataset (train split), before and after targeted copy-paste augmentation."
-
-- Figure 2 — Part A: detector architectures comparison (mAP50 and mAP50-95 bar chart). Placeholder: docs/images/fig_detectors_map.png  
-  Caption: "Figure 2. Comparison of test-set mAP50 and mAP50-95 for four supervised detector architectures."
-
-- Figure 3 — Latency vs accuracy and parameters vs mAP scatter plots. Placeholder: docs/images/fig_latency_params.png  
-  Caption: "Figure 3. Inference latency (FPS) vs accuracy and model size vs mAP trade-offs."
-
-- Figure 4 — YOLOv26-s robustness under corruption (mAP@50 vs severity). Placeholder: docs/images/fig_yolov26_robustness.png  
-  Caption: "Figure 4. YOLOv26-s robustness to synthetic corruptions at increasing severity levels."
-
-- Figure 5 — YOLOv26-s confusion matrix (counts and normalized). Placeholder: docs/images/fig_yolov26_confusion.png  
-  Caption: "Figure 5. Confusion matrix (counts and normalized) for YOLOv26-s at inference threshold 0.25."
-
-- Figure 6 — YOLOv26-s qualitative GT vs predictions. Placeholder: docs/images/fig_yolov26_qualitative.png  
-  Caption: "Figure 6. Example ground-truth vs predicted bounding boxes for YOLOv26-s."
-
-- Figure 7 — SimCLR training loss and t-SNE of validation embeddings. Placeholder: docs/images/fig_simclr_training_tsne.png  
-  Caption: "Figure 7. SimCLR training loss curve and t-SNE visualization of validation embeddings colored by dominant class."
-
-- Figure 8 — BYOL training loss and target momentum schedule. Placeholder: docs/images/fig_byol_loss.png  
-  Caption: "Figure 8. BYOL training loss and the target network momentum schedule."
-
-- Figure 9 — I-JEPA latent prediction loss. Placeholder: docs/images/fig_ijepa_loss.png  
-  Caption: "Figure 9. Smooth-L1 latent-prediction loss for I-JEPA during pretraining."
-
-- Figure 10 — DINOv3-guided distillation loss. Placeholder: docs/images/fig_dinov3_loss.png  
-  Caption: "Figure 10. Distillation loss when guiding a YOLO backbone with a DINOv3 teacher."
-
-- Figure 11 — SSL methods at 20% labels: ranking and label-efficiency curve. Placeholder: docs/images/fig_ssl_ranking_label_eff.png  
-  Caption: "Figure 11. Label-efficiency curve showing downstream mAP50-95 vs labelled fraction for SSL initializations and baselines."
-
-- Figure 12 — Tracking: unique track IDs, confidence distribution, and qualitative tracks. Placeholder: docs/images/fig_tracking_metrics.png  
-  Caption: "Figure 12. Tracking metrics and qualitative tracks produced by the SimCLR-initialized detector with ByteTrack association."
-
-If you supply the image files, I can insert them in-place and add alt text/captions beneath each image.
 
 ## Limitations and future work
 
@@ -147,7 +106,7 @@ If you supply the image files, I can insert them in-place and add alt text/capti
 
 SimCLR gave the best SSL backbone transfer in our experiments, but SSL pretraining on the tested scale and budget did not outperform COCO-pretrained supervised initialization for this dataset and label regimes.
 
-## References (expanded)
+## References
 
 - [1] KIIT-MiTA Dataset, Mendeley Data. Available: https://data.mendeley.com/datasets/drjmrf5kk5/1  
 - [2] M. R. A. Rashid, “ssl-detection-lab,” 2024. GitHub repository: https://github.com/rifat963/ssl-detection-lab  
