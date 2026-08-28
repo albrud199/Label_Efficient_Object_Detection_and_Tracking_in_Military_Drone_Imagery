@@ -1,0 +1,1 @@
+Label-efficient object detection and tracking in military drone imagery, comparing supervised and self-supervised pipelines for low-annotation scenarios.
