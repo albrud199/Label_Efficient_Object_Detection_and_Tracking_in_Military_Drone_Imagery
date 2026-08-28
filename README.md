@@ -82,7 +82,7 @@ The best-performing SSL-initialised detector was deployed in a tracking-by-detec
 
 ## Results (selected tables)
 
-### Table IV: Part A — consolidated detector comparison (test split)
+### Table III: Part A — consolidated detector comparison (test split)
 
 | Model | mAP50 | mAP50-95 | Prec. | Rec. | F1 | FPS | Params (M) |
 |---|---:|---:|---:|---:|---:|---:|---:|
