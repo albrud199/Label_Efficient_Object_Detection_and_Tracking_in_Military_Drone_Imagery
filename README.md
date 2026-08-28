@@ -1,0 +1,1 @@
+# Label_Efficient_Object_Detection_and_Tracking_in_Military_Drone_Imagery
