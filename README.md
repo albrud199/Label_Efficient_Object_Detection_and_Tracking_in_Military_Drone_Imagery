@@ -121,7 +121,6 @@ SimCLR gave the best SSL backbone transfer in our experiments, but SSL pretraini
 - [11] Y. Zhang et al., “ByteTrack: Multi-object tracking by associating every detection box,” Proc. ECCV, 2022.  
 - [12] N. Aharon, R. Orfaig, and B.-Z. Bobrovsky, “BoT-SORT: Robust associations multi-pedestrian tracking,” arXiv:2206.14651, 2022.
 
-(If you want full BibTeX entries I can expand these citations into full reference formats.)
 
 ## Contribution
 
